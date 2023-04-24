@@ -1,27 +1,22 @@
-# HotTakes
+🔨   Installation
+Cloner ce projet depuis GitHub.
+💡   Faire tourner le Frontend
+Ouvrir le terminal sur ce dossier et exécuter npm install pour installer les dépendances.
+Exécuter npm install node-sass pour installer sass.
+Le projet a été généré avec Angular CLI version 7.0.2.
+Démarrer ng serve (ou npm start) pour avoir accès au serveur de développement.
+Rendez-vous sur http://localhost:4200.
+L'application va se recharger automatiquement si vous modifiez un fichier source.
+💡   Faire tourner le Backend
+Ouvrir le terminal sur ce dossier.
+Pour utiliser le serveur, chargez le package nodemon : npm install -g nodemon.
+Puis lancez le serveur: nodemon server.
+Pour faire court
+Si les packages sont déja installés, ces commandes suffisent à démarrer les serveurs.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.4.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+npm start via le terminal sur le frontend
+nodemon server via le terminal sur le backend
+Se connecter à l'url : http://localhost:4200
+🖥   Connexion
+Ouvrir localhost:4200 dans votre navigateur.
+Pour s'inscrire sur l'application, l'utilisateur doit fournir un email et un mot de passe contenant 08 caractères minimum (dont 1 majuscule, 1 minuscule, 1 chiffre, pas de symbole, espaces autorisés).
